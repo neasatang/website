@@ -1,16 +1,46 @@
 body{
   text-align: center;
+  position:relative;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header{
 }
 
 header .container-fluid{
-  padding-top: 80px;
-  padding-bottom: 80px;
-  border: 5px solid MistyRose;
   text-align: center;
+  position: relative;
 }
 
 header .profile{
   margin-left: 5%;
-  margin-right: 70%;
-  margin-bottom: 5%;
+  position:absolute;
+  top: 25%;
+}
+
+header .background-image{
+  object-fit: cover;
+  width:100%;
+  height:500px;
+  position: relative;
+  -webkit-filter: brightness(85%) contrast(90%) blur(2px) grayscale(10%);
+ filter: brightness(85%) contrast(90%) blur(2px) grayscale(10%);
+}
+
+header .bio{
+  color: white;
+  position:absolute;
+  top: 150px;
+  left: 350px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: DarkCyan;
+    background-color:MistyRose;
+    }
+
+.edit {
+  display: inline-block;;
 }
