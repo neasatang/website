@@ -14,30 +14,82 @@
   </head>
 
   <header>
-    <div class = "container-fluid">
-        <img src= "hk.jpg" alt="background" class="background-image">
+
+
+    <div class = "container">
+       <img src= "hk.jpg" alt="background" class="background-image">
 
         <div class = "bio">
-          <h3>i like big butts and i cannot lie, u other brothers can't deny</h3>
+      <!--    <h3> Neasa Tang || 3rd Year Computer Science Student || Avid fan of music.</h3> -->
         </div>
 
         <div class ="profile">
         <img src= "sailormoon.png" class="profile">
         </div>
 
+        <section class="slide-wrapper">
+        <div class = "container">
+        <div id = "myCarousel" class = "carousel slide">
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+         <div class="carousel-inner">
+           <div class="item active">
+             <div class="fill" img src = "hk.jpg" alt = "background" class = "background-image">
+             </div>
+           </div>
+           <div class="item">
+             <div class="fill" style="background-color:#b33f4a"></div>
+           </div>
+           <div class="item">
+             <div class="fill" style="background-color:#7fc2f4"></div>
+           </div>
+           <div class="item">
+             <div class="fill" style="background-color:#e47794"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
     </div>
+
+
   </header>
 
   <body>
 
-      <h2>navigation bars</h2>
-      <div class = "col-md-12 text-center">
+    <!--  <h2>navigation bars</h2> -->
+
       <ul class="nav nav-pills edit">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">About</a></li>
-        <li role="presentation"><a href="#">Contact</a></li>
-        <li role="presentation"><a href="#">Experience</a></li>
+        <li class="active"><a data-toggle="pill" href="#Home">Home</a></li>
+        <li><a data-toggle="pill" href="#About">About</a></li>
+        <li role="navigation"><a data-toggle="pill" href="#Contact">Contact</a></li>
+        <li role="navigation"><a data-toggle="pill" href="#Experience">Experience</a></li>
       </ul>
+
+      <div class = "tab-content">
+      <div id = "Home" class="tab-pane fade in active">
+      </div>
+      <div id = "About" class="tab-pane fade">
+        Hi there.<br></br> I am Neasa Tang. <br></br>I am a Third Year student.<br></br> I study
+        in Trinity College Dublin. <br></br> I like making things look pretty. <br></br> I like to
+      learn. <br></br>
+
+      </div>
+      <div id = "Contact" class="tab-pane fade">
+        Feel free to contact me at: <br>neasatang@gmail.com</br>
+
+      </div>
+      <div id = "Experience" class="tab-pane fade">
+          lol
+      </div>
     </div>
 
       <!--jQuery-->
