@@ -24,7 +24,7 @@ header .background-image{
   height:200px;
   position: relative;
   -webkit-filter: brightness(85%) contrast(90%) blur(2px) grayscale(10%);
- filter: brightness(85%) contrast(90%) blur(2px) grayscale(10%);
+ filter: brightness(85%) contrast(90%) blur(1px) grayscale(0%);
 }
 
 header .bio{
@@ -43,21 +43,49 @@ header .bio{
     border-bottom-width:5px;
     border-bottom-style: dotted;
     border-bottom-color:  MistyRose;
-    color: DarkCyan;
+    color: black;
     background-color:transparent;
     }
 
 .nav-pills > li > a{
-  font-family'Ubuntu', sans-serif;
-  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
   margin: 30px;
-  color:DarkCyan;
+  color:lightblue;
 }
 
 .edit {
   display: inline-block;
   border-radius:0px;
   margin-top: 20px;
+}
+
+.social{
+  position:relative;
+  padding-right: 20px;
+}
+.link-edit{
+  position: relative;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+  position:relative;
+}
+
+.social-group{
+  margin: 50px;
+  position: relative;
+  display:inline-block;
+}
+
+.name{
+  margin-top: 30px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  position: relative;
+  line-height: normal;
 }
 
 
