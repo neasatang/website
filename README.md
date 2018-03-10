@@ -1,7 +1,4 @@
 Things to do:
-- [ ] vertical carousel 
-- [ ] about page
-- [ ] contact page
-- [ ] experience page
-- [ ] home page
-- [ ] some other stuff yet to decide hmmmm
+- [ ] fix the nav bar interaction when on a smaller window
+- [ ] add pictures/demo of projects
+
